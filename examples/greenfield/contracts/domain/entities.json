@@ -1,0 +1,10 @@
+{
+  "entities": [
+    {
+      "name": "Greeting",
+      "kind": "value",
+      "scope": "none",
+      "owning_spec": 1
+    }
+  ]
+}

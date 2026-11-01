@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sdd-gov spec frontmatter",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "layer",
+    "owner",
+    "created",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "specified",
+        "in_progress",
+        "completed",
+        "superseded",
+        "planned",
+        "reserved"
+      ]
+    },
+    "layer": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "epic": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "trust_boundary": {
+      "type": "boolean"
+    },
+    "size": {
+      "enum": [
+        "standard",
+        "large"
+      ]
+    },
+    "depends_on": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "decision_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issue_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "touches": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "superseded_by": {
+      "type": "integer"
+    },
+    "scope": {
+      "enum": [
+        "workspace",
+        "account",
+        "global",
+        "none"
+      ]
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

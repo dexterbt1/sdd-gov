@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sdd-gov project profile",
+  "type": "object",
+  "required": ["name", "spec_dir", "layers"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "layout": { "enum": ["single", "monorepo"] },
+    "spec_dir": { "type": "string", "default": "specs" },
+    "id_width": { "type": "integer", "minimum": 3, "maximum": 4 },
+    "layers": { "type": "array", "items": { "type": "string" } },
+    "test_globs": { "type": "array", "items": { "type": "string" } },
+    "tag_pattern": { "type": "string" },
+    "cmd_test": { "type": "string" },
+    "cmd_lint": { "type": "string" },
+    "capabilities": { "type": "array", "items": { "type": "string" } },
+    "modules": { "type": "array", "items": { "enum": ["security", "aaa", "ste"] } },
+    "worktrees": { "enum": ["auto", "required", "off"] },
+    "max_parallel_builders": { "type": "integer", "minimum": 1 },
+    "tasks": { "enum": ["required", "optional"] },
+    "bundle_tokens": { "type": "integer", "minimum": 1000 },
+    "memory_max_lines": { "type": "integer", "minimum": 10 },
+    "spec_max_lines": { "type": "integer", "minimum": 50 },
+    "spec_large_max_lines": { "type": "integer", "minimum": 50 },
+    "spec_hard_max_lines": { "type": "integer", "minimum": 50 },
+    "project_max_lines": { "type": "integer", "minimum": 20 },
+    "agents_max_words": { "type": "integer", "minimum": 100 },
+    "budget_overrides": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

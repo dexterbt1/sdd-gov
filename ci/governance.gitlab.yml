@@ -1,0 +1,9 @@
+# Include this file from .gitlab-ci.yml in an adopted project.
+# This template assumes the isolated layout (sdd-gov/ under the project root).
+governance:
+  image: python:3.11
+  stage: test
+  script:
+    - python -m pip install pyyaml
+    - sh sdd-gov/g check --budget
+    - sh sdd-gov/g selftest

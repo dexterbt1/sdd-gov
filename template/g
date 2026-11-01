@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ "$#" -eq 0 ]; then
+  cat <<'USAGE'
+sdd-gov
+
+  ./g check --budget
+  ./g check --changed
+  ./g context --task T-0001-01
+  ./g resume --spec 1
+  ./g plan --spec 1
+  ./g next --spec 1
+  ./g emit all
+  ./g emit registry --by-epic
+  ./g reserve --size 10 --owner "team"
+  ./g metrics --out .local/tmp/metrics.json
+  ./g metrics
+  ./g doctor
+  ./g upgrade --from <path>
+USAGE
+  exit 0
+fi
+exec python3 "$ROOT/governance/scripts/govern.py" "$@" --root "$ROOT"

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sdd-gov ledger row",
+  "type": "object",
+  "required": [
+    "id",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "pickup": {
+      "type": "string"
+    },
+    "owning_spec": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "expires": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "commit": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "test": {
+      "type": "string"
+    },
+    "table": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

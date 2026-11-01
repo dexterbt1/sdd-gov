@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "created": "2026-01-01",
+  "expires": "2099-12-31",
+  "grandfathered_specs": [1],
+  "allowed_missing": ["REQ-001-01"]
+}

@@ -1,0 +1,313 @@
+{
+  "name": "sdd-gov",
+  "version": "0.4.0",
+  "ref": "v0.4.0",
+  "python": ">=3.9",
+  "install": {
+    "core": "governance/",
+    "template": "template/",
+    "entry": "governance/scripts/govern.py"
+  },
+  "files": [
+    {
+      "path": "governance/KICKOFF.md",
+      "sha256": "3f1550b4c9eb58b5836fbfaed05e761aec0376a3409653d852f5c088558fedab"
+    },
+    {
+      "path": "governance/MODULES.md",
+      "sha256": "ec0d8a2a974abe99f0f5a1ed01f4162ee231becbfc481881d75ef6d43e77ccc9"
+    },
+    {
+      "path": "governance/UPGRADING.md",
+      "sha256": "1c050ccc90d1af518ae111bf037ba8663cafdf76af70ca4e35438b9269f47740"
+    },
+    {
+      "path": "governance/VERSION",
+      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79"
+    },
+    {
+      "path": "governance/adapters/claude/README.md",
+      "sha256": "dba6deed2cae4bd4014caa88fda84b2085384c87daa2ffe6c7e8663765aa867e"
+    },
+    {
+      "path": "governance/adapters/codex/README.md",
+      "sha256": "379d6db8394e3460c946b27b1a850f98544734483d332c9da3339d51ec9908bf"
+    },
+    {
+      "path": "governance/adapters/generic/README.md",
+      "sha256": "7c5d3462a08989ea08ec4d5e02dadaa17c70a78120c669defdafe3d4ec0900f5"
+    },
+    {
+      "path": "governance/adapters/opencode/README.md",
+      "sha256": "69c34d6d169cdc893dac6d943984380f3942849542817a252a07fa23a9d31d47"
+    },
+    {
+      "path": "governance/composition.md",
+      "sha256": "b2df91c1d320c2d199314e5b58ed0a69e4018986fc3328fb6cd125470eb7219e"
+    },
+    {
+      "path": "governance/invariants.md",
+      "sha256": "7a24b68860a48472d2c4f40fe40f692b3cdbaa9bb8ab6ea5f0a3a2fcf93e0496"
+    },
+    {
+      "path": "governance/modules.d/api/check.py",
+      "sha256": "ef5183d95accf2f76d1e0676b540eec326ba9a57c47bca14321166d0934218cf"
+    },
+    {
+      "path": "governance/modules.d/api/module.md",
+      "sha256": "c0090a596ff2943d370130b759d8d7faeaa1ccf71d58edbe8effce16ffb8e485"
+    },
+    {
+      "path": "governance/modules.d/bands/check.py",
+      "sha256": "ec3b676a53b6f5035fa3a357e44edcccb5631addc97bf43cf370930d4dc0f0a2"
+    },
+    {
+      "path": "governance/modules.d/bands/module.md",
+      "sha256": "023757e99163d536ce2886ab61befe9d28324ffd577bc9cbcb65f93170d6a14d"
+    },
+    {
+      "path": "governance/modules.d/database/check.py",
+      "sha256": "dc2be0f9ed5a78a6642d682f3a7f0b168ecad7d6edf321636e184105508b41af"
+    },
+    {
+      "path": "governance/modules.d/database/module.md",
+      "sha256": "e069024f46450e00cd73d5a3e9d23f680f8658d446776966b1b3690651011182"
+    },
+    {
+      "path": "governance/modules.d/domain/check.py",
+      "sha256": "55f1f6530feceb086b8ea2c56ef2664bc23a7ae0a2c5a3be9868d011bcd4c22b"
+    },
+    {
+      "path": "governance/modules.d/domain/module.md",
+      "sha256": "54ad9d51022d26a8945e205eb73692c3ea06a232db40a500829ca1007d15e77d"
+    },
+    {
+      "path": "governance/modules.d/epic/check.py",
+      "sha256": "67c646afc089d29b00de3f53c6d5a6083e4b3d494872e5874dc0e5b784c10c2b"
+    },
+    {
+      "path": "governance/modules.d/epic/module.md",
+      "sha256": "a3cd006daa977eb85e24c898a494c8986c4695e6b8b5cbc8aae6bb7280969b71"
+    },
+    {
+      "path": "governance/modules.d/isolation/check.py",
+      "sha256": "06f95d89dd4d48fa4c7da3e3bfb9340a087ddbc25cf47440554d308b46829d85"
+    },
+    {
+      "path": "governance/modules.d/isolation/module.md",
+      "sha256": "528fb6ed97a0b952491538a7a14c3d835d47c49d13625d2c8dfe05f975e880e7"
+    },
+    {
+      "path": "governance/modules.d/matrix/check.py",
+      "sha256": "1b0c822a423997f78aa3133c836d79aad6840f168ba982872020ccbf3402e59a"
+    },
+    {
+      "path": "governance/modules.d/matrix/module.md",
+      "sha256": "08247d7ca0313275db585cb835806abf31422df81c899cd3013fe098b74a2ca6"
+    },
+    {
+      "path": "governance/modules.d/metrics-export/check.py",
+      "sha256": "6c6c5b1e02c73906212fb1a0a9aec3874cf8d388d4e0c2b4e01402f9cfe1b1a4"
+    },
+    {
+      "path": "governance/modules.d/metrics-export/module.md",
+      "sha256": "c7a7356532fbd39f0f5776f3504f0239aa83c36de1ebeb22690292fba2c1af5e"
+    },
+    {
+      "path": "governance/modules.d/provenance/check.py",
+      "sha256": "8ffb659f12b99744ac34bee40c3e300a6bd9c9295ca46febde421af3d62c3d23"
+    },
+    {
+      "path": "governance/modules.d/provenance/module.md",
+      "sha256": "136309beeff2beb572e7d6ab69869c90817a38f4754162cd57040d25483f30cf"
+    },
+    {
+      "path": "governance/modules.d/qa/check.py",
+      "sha256": "b9d56f0f822931a231710234e4622915f3c2bfde98cf698ae837aa40a30d98bd"
+    },
+    {
+      "path": "governance/modules.d/qa/module.md",
+      "sha256": "02c801cc83cca98454182f68b138ce4aebb5daea009a998be43012a1c464fe63"
+    },
+    {
+      "path": "governance/modules.d/security/check.py",
+      "sha256": "294cf2141cad58c6cb724433c55d7138229a45bd9650932442693c87bebfd5f8"
+    },
+    {
+      "path": "governance/modules.d/security/module.md",
+      "sha256": "67d8bbdc7dacc7bdbfa5b5e786d5c8045d5d7ac101264f7e61440ead2a80328a"
+    },
+    {
+      "path": "governance/modules.d/ste/check.py",
+      "sha256": "554f04fca12768c24b9ee91636742042c38ca2bc1633ba8a4371ebbf068ce173"
+    },
+    {
+      "path": "governance/modules.d/ste/lint_ste.py",
+      "sha256": "e226c050d3c34127d0398772fae5527c970c6487411a8a26b51636998620f5c5"
+    },
+    {
+      "path": "governance/modules.d/ste/module.md",
+      "sha256": "7a2557d0d48e9bdd531262e884171273dd448400fe21716a1458b618b7334d3a"
+    },
+    {
+      "path": "governance/roles/author.md",
+      "sha256": "186966a7aec95a01f9b92c8e27bf7536f242dffdce51174be04b55543b6c5349"
+    },
+    {
+      "path": "governance/roles/builder.md",
+      "sha256": "d5a9abc9fe88ee6ff98a8b8d00856b47dd1319f33e332b7f43c676b56222a3af"
+    },
+    {
+      "path": "governance/roles/qa.md",
+      "sha256": "805d80fd89599c404ec865fde472ec570c6d8241946c8611a45fbe84f93cd354"
+    },
+    {
+      "path": "governance/roles/reviewer.md",
+      "sha256": "5d8939b09ff3d38d35acede4bceea54bddc24e89167684a5cb48e7a64b5cd2f2"
+    },
+    {
+      "path": "governance/schema/ledger.schema.json",
+      "sha256": "291a477a676563a01ee564fe6711dd76cfcf43fcaff307e092cdc51afd893255"
+    },
+    {
+      "path": "governance/schema/project.schema.json",
+      "sha256": "6392f8ca07a5bf56ff80a22ddd9f96e5b52cb433f25b3a9baed9472ed3c5eed5"
+    },
+    {
+      "path": "governance/schema/spec.schema.json",
+      "sha256": "63ea8a02bedb72f22b8dde8246182e4d314f3e03b0cbe17e0123d86d35eae3ab"
+    },
+    {
+      "path": "governance/scripts/frontmatter.py",
+      "sha256": "12ad59f8d70277fd9b99503807ffdb0e4362b26f6c9c9840979f49aed56be8e4"
+    },
+    {
+      "path": "governance/scripts/govern.py",
+      "sha256": "93da37e7082534fbd854d7451caa2150e7f9fa8ec678af5580cef955399f91c7"
+    },
+    {
+      "path": "governance/skills/kickoff/SKILL.md",
+      "sha256": "d0ba422100d4fae8d5d1a6eca140cb3a265a5d9022888a67bc26e28f6d94f671"
+    },
+    {
+      "path": "governance/skills/review/SKILL.md",
+      "sha256": "eaca84f7ac1d4d57638f3ef64e4e7e7992e4a2da576b688a3d938faf14c192dd"
+    },
+    {
+      "path": "governance/skills/secure-coding/SKILL.md",
+      "sha256": "334331034d5c9d9585052fa7e511097b69ca5dfa778de2b21fca8b8185049a4b"
+    },
+    {
+      "path": "governance/skills/spec/SKILL.md",
+      "sha256": "29ac491570fe2e51d7899c19c3be67abdc1c606731f300c593fb0c2df67adbca"
+    },
+    {
+      "path": "governance/skills/tdd/SKILL.md",
+      "sha256": "c4445bfc84eae89ca887984d524bddcaccb6229822be20fd66f513979cefd998"
+    },
+    {
+      "path": "governance/skills/verification/SKILL.md",
+      "sha256": "12ac33fee6a2b0a6dcb7b0355211556aac298fcfd50745d5dbcda8b8af69e161"
+    },
+    {
+      "path": "governance/templates/decision.md",
+      "sha256": "5ce597e75f8c14fa48170eff604dd1215672ced8d73f6153bae043578d4dd117"
+    },
+    {
+      "path": "governance/templates/idea.md",
+      "sha256": "4437f7b8e21cf4374c89fb24311a5528a89ddd9b5374dc624e6084b8e0ad239c"
+    },
+    {
+      "path": "governance/templates/known-issue.md",
+      "sha256": "5cd99682e4cfe59a60c6750777593fd175e164acb463877b8a6c96e5f386e39d"
+    },
+    {
+      "path": "governance/templates/risk.md",
+      "sha256": "53e5c4b226f66086b599fd561c2d2745416657e4960af46656a6fe9529c90736"
+    },
+    {
+      "path": "governance/templates/spec.md",
+      "sha256": "629504896c2f6d04e27ad94083ff51d6260fec9047f864bef84dc365e1e86dcf"
+    },
+    {
+      "path": "governance/templates/task.md",
+      "sha256": "85eb46d20e94b758f5edca1a56c2b5d8a9c7dc43bb92f46af430f153a6a800a4"
+    },
+    {
+      "path": "governance/workflow.md",
+      "sha256": "9176079efa6bae7286055795e78733bf449d476c987ab454646e88d1026f9ecf"
+    },
+    {
+      "path": "template/.gitignore",
+      "sha256": "64be4a22b4138be67ab2aeb9d9f63f3f41acaf8e15e3ab914b4d55aa1be66190"
+    },
+    {
+      "path": "template/AGENTS.md",
+      "sha256": "2584c2c83303a2d23a6d9b690c1732e797f70d6b211d3e8bea7fbe0ec2aea1bb"
+    },
+    {
+      "path": "template/DECISIONS.md",
+      "sha256": "c7b958e9e7871b0724df008f74e93f853cc8edc38ffa595874f46b8d8493439a"
+    },
+    {
+      "path": "template/KNOWN_ISSUES.md",
+      "sha256": "c46316ce7bc68a6bb8903f8b675f5a7800c84137b07fac00052922624bc030fc"
+    },
+    {
+      "path": "template/MEMORY.md",
+      "sha256": "f3d836c49dfb9bb21bf2377618a90a72ef386d9db4e20ee810eeea1f1ea3732f"
+    },
+    {
+      "path": "template/PROJECT.md",
+      "sha256": "dd8890009630dadbf7be7840f742797f66b941a239f42167fc55995a13e5142b"
+    },
+    {
+      "path": "template/README.md",
+      "sha256": "3ea0856a997c7195b2a6ca4a3dc87a879d1aa7742ad8657cb14d9c58468c4da8"
+    },
+    {
+      "path": "template/RISKS.md",
+      "sha256": "58dff1fddf6ff58384809c214d4a31deb24e6d3aa6fc1a0981a2a543264933b7"
+    },
+    {
+      "path": "template/WORK.md",
+      "sha256": "20386aa5ff507370e51f6f5de5641aef36740f852b2c0f78d771ad3d53cb6821"
+    },
+    {
+      "path": "template/g",
+      "sha256": "dc37aacdb981b72bac38058ffe4dbcf736190954e121e93f485021922c0470e8"
+    },
+    {
+      "path": "template/g.cmd",
+      "sha256": "be09260d5efde40e26ae752b02d7318fd282eaa13d6067cc93aa5ac7a0f859e7"
+    },
+    {
+      "path": "template/specs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ADOPT.md",
+      "sha256": "e715904d6f7a8367a06bfb7c24f87b9c07966626fab1ec57844a13ffb70a9134"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "49fd79cb9a0987f5d668a7b3a989b1fe4890cf562065b918612ace49604583f5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2dc684d0bd2b1ca50263264d8b9d70ea35d732765e59f5deb92a9e1fb2fa057f"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "22159fff33a17b0ce59bbedd944c470ef2b7a5a181c3f2d8ec57c39df3c46d80"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "98148406aab1fcb6223e67067d5618044f1d2f34ca7bfd2c21ba366c99f60eff"
+    }
+  ]
+}
