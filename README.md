@@ -29,14 +29,14 @@ auditable decisions.
 
 Give an agent this instruction:
 
-> Adopt the governance at `https://github.com/<org>/sdd-gov` at tag `v0.4.0`. Read
+> Adopt the governance at `https://github.com/dexterbt1/sdd-gov` at tag `v0.4.0`. Read
 > `ADOPT.md` and follow it exactly. Do not copy a file it does not name. Ask before
 > overwriting anything that exists.
 
 ## Manual adoption
 
 ```sh
-git clone --depth 1 --branch v0.4.0 https://github.com/<org>/sdd-gov .local/tmp/sdd-gov
+git clone --depth 1 --branch v0.4.0 https://github.com/dexterbt1/sdd-gov .local/tmp/sdd-gov
 python3 .local/tmp/sdd-gov/governance/scripts/govern.py init --from .local/tmp/sdd-gov
 sdd-gov/g check --budget
 ```

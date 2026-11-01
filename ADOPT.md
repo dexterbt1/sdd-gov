@@ -6,7 +6,7 @@ This file is for an AI coding agent. Follow it exactly. Do not improvise.
 
 The human says:
 
-> Adopt the governance at `https://github.com/<org>/sdd-gov` at tag `v0.4.0`. Read
+> Adopt the governance at `https://github.com/dexterbt1/sdd-gov` at tag `v0.4.0`. Read
 > `ADOPT.md` and follow it exactly. Do not copy a file it does not name. Ask before
 > overwriting anything that exists.
 
